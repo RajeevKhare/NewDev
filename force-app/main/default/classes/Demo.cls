@@ -1,5 +1,4 @@
 // By Rajeev
-// In main Branch
 public class Demo{
     String s, genricDomains; 
     Integer i;
@@ -35,7 +34,7 @@ public class Demo{
         system.debug('lstOfEmails--------'+lstOfEmails);
         
         Set<String> setOfDomains = new Set<String>();
-        
+        //master branch for loop comment
         for(String strEmail : lstOfEmails){
             system.debug('strEmail --------'+strEmail );
             
