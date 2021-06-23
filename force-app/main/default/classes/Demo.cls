@@ -31,11 +31,12 @@ public class Demo{
     }
     
     
+    //This comment in Master branch
     public Set<String> findDomainSet(List<String> lstOfEmails){
         system.debug('lstOfEmails--------'+lstOfEmails);
         
         Set<String> setOfDomains = new Set<String>();
-        
+        //master branch for loop comment
         for(String strEmail : lstOfEmails){
             system.debug('strEmail --------'+strEmail );
             
