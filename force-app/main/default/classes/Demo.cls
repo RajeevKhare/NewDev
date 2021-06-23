@@ -33,6 +33,7 @@ public class Demo{
     
     public Set<String> findDomainSet(List<String> lstOfEmails){
         system.debug('lstOfEmails--------'+lstOfEmails);
+        system.debug('lstOfEmails2--------'+lstOfEmails);
         
         Set<String> setOfDomains = new Set<String>();
         
