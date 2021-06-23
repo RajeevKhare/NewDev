@@ -31,6 +31,16 @@ public class Demo{
     }
     
     
+    public static void sayBye(){
+        String say = 'Hello world';
+       // s = 'hii';
+        system.debug(say); 
+        //if(stopExecution == true)
+            return;
+       // system.debug('is this print?'); 
+    }
+    
+    
     public Set<String> findDomainSet(List<String> lstOfEmails){
         system.debug('lstOfEmails--------'+lstOfEmails);
         system.debug('lstOfEmails2--------'+lstOfEmails);
