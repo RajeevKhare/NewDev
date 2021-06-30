@@ -29,6 +29,14 @@ public class Demo{
             return;
        // system.debug('is this print?'); 
     }
+    public static void sayHello2(){
+        String say = 'Hello world';
+       // s = 'hii';
+        system.debug(say); 
+        //if(stopExecution == true)
+            return;
+       // system.debug('is this print?'); 
+    }
     
     
     public Set<String> findDomainSet(List<String> lstOfEmails){
