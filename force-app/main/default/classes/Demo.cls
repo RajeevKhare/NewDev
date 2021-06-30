@@ -21,14 +21,7 @@ public class Demo{
         this.i = i;
        // this.stopExecution = stopExecution;
     }
-    public static void sayHello(){
-        String say = 'Hello world';
-       // s = 'hii';
-        system.debug(say); 
-        //if(stopExecution == true)
-            return;
-       // system.debug('is this print?'); 
-    }
+   
     
     
     public Set<String> findDomainSet(List<String> lstOfEmails){
