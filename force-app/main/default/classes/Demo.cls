@@ -21,7 +21,7 @@ public class Demo{
         this.i = i;
        // this.stopExecution = stopExecution;
     }
-    public static void sayHello(){
+ public static void sayHello2(){
         String say = 'Hello world';
        // s = 'hii';
         system.debug(say); 
@@ -29,15 +29,7 @@ public class Demo{
             return;
        // system.debug('is this print?'); 
     }
-    public static void sayHello2(){
-        String say = 'Hello world';
-       // s = 'hii';
-        system.debug(say); 
-        //if(stopExecution == true)
-            return;
-       // system.debug('is this print?'); 
-    }
-    
+   
     
     public Set<String> findDomainSet(List<String> lstOfEmails){
         system.debug('lstOfEmails--------'+lstOfEmails);
@@ -57,4 +49,5 @@ public class Demo{
         return setOfDomains;
     }
     
+//From RK Dev
 }
