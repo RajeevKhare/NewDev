@@ -1,3 +1,6 @@
+// commit with this file only 10000
+// By Rajeev khare from System 
+// from brach dev 30
 //push in post dev
 // adding veirfied commit again singed
 public class Demo{
@@ -9,6 +12,7 @@ public class Demo{
     Set<String> setOfString;
     //Map<String, String> mapof String
     
+    //Dev Branch Comment
     public Demo(){
         this.s = 'hii';
         this.i = i;
@@ -30,8 +34,19 @@ public class Demo{
     }
     
     
+    public static void sayBye(){
+        String say = 'Hello world';
+       // s = 'hii';
+        system.debug(say); 
+        //if(stopExecution == true)
+            return;
+       // system.debug('is this print?'); 
+    }
+    
+    
     public Set<String> findDomainSet(List<String> lstOfEmails){
         system.debug('lstOfEmails--------'+lstOfEmails);
+        system.debug('lstOfEmails2--------'+lstOfEmails);
         
         Set<String> setOfDomains = new Set<String>();
         
