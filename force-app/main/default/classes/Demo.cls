@@ -1,4 +1,5 @@
-//From RK2-Dev... There is new changes
+// by rajeevkhare-360
+//From RK2-Dev... // there are another chnage by rk2
 //push in post dev
 // adding veirfied commit again singed
 public class Demo{
@@ -21,6 +22,14 @@ public class Demo{
         this.i = i;
        // this.stopExecution = stopExecution;
     }
+ public static void sayHello2(){
+        String say = 'Hello world';
+       // s = 'hii';
+        system.debug(say); 
+        //if(stopExecution == true)
+            return;
+       // system.debug('is this print?'); 
+    }
    
     
     //push only this commit
@@ -42,5 +51,5 @@ public class Demo{
         return setOfDomains;
     }
     
-//From RK Dev 1000
+//From RK Dev
 }
